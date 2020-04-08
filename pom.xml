@@ -17,11 +17,5 @@
 			<version>3.0.14</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
-    <repository>
-        <id>dropbox-mvn-repo</id>
-        <url>file:///C:/Users/rooro/Dropbox/dropbox-mvn-repo</url>
-    </repository>
-</distributionManagement>
 
 </project>
