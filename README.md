@@ -3,25 +3,8 @@ A command parser for Discord4J
 
 PRs welcome!
 
-to install (maven):
-```xml
-<repositories>
-
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-</repositories>
-
-<dependencies>
-
-  <dependency>
-    <groupId>com.github.airketchplayz</groupId>
-    <artifactId>D4JAddon</artifactId>
-    <version>1.0.0</version>
-  </dependency>
-</dependencies>
-```
+to install https://jitpack.io/#AirKetchPLAYZ/D4JAddon/1.0.0  
+Tag will be the latest version, check in Releases
 
 # Usage: 
 Extend DiscordCommand
