@@ -1,5 +1,8 @@
 # D4JAddon 
 A command parser for Discord4J 
+
+PRs welcome!
+
 to install (maven):
 ```xml
 <repositories>
