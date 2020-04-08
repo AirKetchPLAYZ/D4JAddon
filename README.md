@@ -3,8 +3,7 @@ A command parser for Discord4J
 
 PRs welcome!
 
-to install https://jitpack.io/#AirKetchPLAYZ/D4JAddon/1.0.0  
-Tag will be the latest version, check in Releases
+to install, go to https://jitpack.io/#AirKetchPLAYZ/D4JAddon and choose the version (newest version recommended)
 
 # Usage: 
 Extend DiscordCommand
