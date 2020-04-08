@@ -7,11 +7,21 @@ public class DiscordCommand {
 	protected CommandGroup group;
 	public boolean allInOneArg = false;
 	private CommandEvent ev;
+	public String fullname;
 	protected boolean execute(CommandEvent event, String[] args) {
 		return false;
 	}
+	public CommandGroup getGroup() {
+		return this.group;
+	}
+	public String getShortName() {
+		return this.name;
+	}
+	public String getFullName() {
+		return this.fullname;
+	}
 	public String getUsage() {
-		return group.prefix + this.usage;
+		return group.prefix + this.fullname + " " + this.usage;
 	}
 	public void run(CommandEvent eve) {
 		ev = eve;
@@ -37,11 +47,12 @@ public class DiscordCommand {
 			}
 			
 			if (!this.execute(ev, splits)) {
-				ev.getMessage().getChannel().block().createMessage(group.prefix + this.usage).block();
+				ev.getMessage().getChannel().block().createMessage("Usage: `" + getUsage() + "`").block();
 			}
 		}
 	}
 	public DiscordCommand(CommandGroup g) {
 		group = g;
 	}
+
 }
