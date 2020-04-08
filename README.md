@@ -33,7 +33,7 @@ class Ping extends DiscordCommand {
 
 	@Override
 	public boolean execute(CommandEvent event, String[] args) {
-    event.send("Pong!")
+    		event.send("Pong!")
 		return true; // If false is returned, it will send the prefix + usage
 	}
 }
@@ -59,17 +59,17 @@ public class CCBot {
 
 }
 ```
-# CommandEvent: 
-constructor CommandEvent(MessageCreateEvent event) 
-getMessage() 
-send(String text) 
-getBaseEvent() 
-# CommandGroup: 
-constructor CommandGroup(String prefix) 
-run(CommandEvent event) 
-addCommand(DiscordCommand cmd) 
-# DiscordCommand 
-constructor DiscordCommand(CommandGroup g) 
-run(CommandEvent event) 
-getUsage() 
-overridable execute(CommandEvent event, String[] args)
+# CommandEvent:  
+constructor CommandEvent(MessageCreateEvent event)  
+getMessage()  
+send(String text)  
+getBaseEvent()  
+# CommandGroup:  
+constructor CommandGroup(String prefix)  
+run(CommandEvent event)  
+addCommand(DiscordCommand cmd)  
+# DiscordCommand  
+constructor DiscordCommand(CommandGroup g)  
+run(CommandEvent event)  
+getUsage()  
+overridable execute(CommandEvent event, String[] args) 
