@@ -1,7 +1,7 @@
 
 # D4JAddon 
 
-[![](https://jitci.com/gh/AirKetchPLAYZ/D4JAddon/svg)](https://jitci.com/gh/AirKetchPLAYZ/D4JAddon)  
+[![Build Status](https://travis-ci.org/AirKetchPLAYZ/D4JAddon.svg?branch=master)](https://travis-ci.org/AirKetchPLAYZ/D4JAddon)  
 
 A command parser for Discord4J 
 
