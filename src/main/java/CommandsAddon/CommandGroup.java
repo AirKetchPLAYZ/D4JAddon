@@ -81,7 +81,7 @@ public class CommandGroup {
 		}
 
 
-		for (DiscordCommand cmd : cmds.toArray(new DiscordCommand[cmds.size()])) {
+		for (DiscordCommand cmd : allcmds.toArray(new DiscordCommand[allcmds.size()])) {
 			if (cmd == null) continue;
 			if (result.toLowerCase().startsWith(cmd.getFullName().toLowerCase())) {
 				cmd.run(event);
